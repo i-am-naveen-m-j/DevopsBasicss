@@ -26,3 +26,9 @@ steps:
     repository: 'ffffffff'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'https://hub.docker.com/u/naveen782'
+    repository: 'fffffffffff'
+    command: 'buildAndPush'
+    Dockerfile: '**/AzureDockerfile'
